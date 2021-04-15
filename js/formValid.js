@@ -89,4 +89,15 @@ submitBtn.addEventListener("click",(e)=>{
         Phone:JSON.parse(JSON.stringify(phone.value))
     }
     console.log(obj)
+    name.value=''
+    email.value=''
+    phone.value=''
+    comments.value=''
+    car.value=''
+    address.value=''
+    carPickup.value=''
+    carDropoff.value=''
+    name.classList.remove('is-valid')
+    phone.classList.remove('is-valid')
+    email.classList.remove('is-valid')
 })
